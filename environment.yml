@@ -1,4 +1,4 @@
-name: june21
+name: june22
 channels:
   - eoas_ubc
   - conda-forge
@@ -8,13 +8,25 @@ dependencies:
   - click
   - sphinx=2.4.4
   - jupyter
+  - jupytext
   - pip
   - pip:
     - click_log
     - click_completion
-    - git+https://github.com/jupyter/jupyter-sphinx.git
-    - git+https://github.com/phaustin/MyST-NB.git
-    - git+https://github.com/phaustin/jupyter-cache
-    - https://clouds.eos.ubc.ca/~phil/docs/wheels/jupyter_cache-0.2.2-py3-none-any.whl
-    - https://clouds.eos.ubc.ca/~phil/docs/wheels/jupyter_book-0.7.1.dev0-py3-none-any.whl
-    - git+https://github.com/mwouts/jupytext.git
+    - jupyter-sphinx
+    - pyyaml
+    - docutils>=0.15
+    - sphinx<3
+    - click
+    - setuptools
+    - nbformat
+    - nbconvert
+    - nbclient
+    - sphinx_togglebutton
+    - sphinx-copybutton
+    - sphinxcontrib-bibtex
+    - sphinx_book_theme~=0.0
+    - git+https://github.com/executablebooks/MyST-NB.git
+    - git+https://github.com/executablebooks/jupyter-cache.git
+    - git+https://github.com/phaustin/jupyter-book@posix_path
+

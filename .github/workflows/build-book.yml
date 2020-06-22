@@ -30,7 +30,7 @@ jobs:
       uses: goanpeca/setup-miniconda@v1.1.2
       with:
         environment-file: environment.yml
-        activate-environment: june21
+        activate-environment: june22
         python-version: 3.7
         auto-activate-base: false
 
