@@ -39,6 +39,8 @@ jobs:
       shell: bash -l {0}
       run: |
         ORIG_DIR="${PWD}"
+        conda update -n base -c defaults conda
+        conda env update
         mkdir -p html_out
         cd quantecon_flat/mini_book
         jupyter-book build docs
