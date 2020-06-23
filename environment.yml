@@ -8,6 +8,7 @@ dependencies:
   - click
   - sphinx=2.4.4
   - jupyter
+  - git
   - jupytext
   - jb_test
   - sqlalchemy
