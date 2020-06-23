@@ -11,20 +11,21 @@ dependencies:
   - jupytext
   - jb_test
   - sqlalchemy
+  - pyyaml
+  - docutils>=0.15
+  - setuptools
+  - nbformat
+  - nbconvert
+  - nbclient
   - pip
   - pip:
+    - git+https://github.com/executablebooks/jupyter-cache.git
+    - git+https://github.com/executablebooks/MyST-NB.git
+    - git+https://github.com/phaustin/jupyter-book@posix_path
     - click_log
     - click_completion
     - jupyter-sphinx
-    - pyyaml
-    - docutils>=0.15
     - myst-parser~=0.8
-    - sphinx<3
-    - click
-    - setuptools
-    - nbformat
-    - nbconvert
-    - nbclient
     - sphinx_togglebutton
     - sphinx-copybutton
     - sphinxcontrib-bibtex
