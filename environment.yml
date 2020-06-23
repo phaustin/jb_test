@@ -10,7 +10,6 @@ dependencies:
   - jupyter
   - git
   - jupytext
-  - jb_test
   - sqlalchemy
   - pyyaml
   - docutils>=0.15
