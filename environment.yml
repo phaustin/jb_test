@@ -9,6 +9,8 @@ dependencies:
   - sphinx=2.4.4
   - jupyter
   - jupytext
+  - jb_test
+  - sqlalchemy
   - pip
   - pip:
     - click_log
@@ -16,6 +18,7 @@ dependencies:
     - jupyter-sphinx
     - pyyaml
     - docutils>=0.15
+    - myst-parser~=0.8
     - sphinx<3
     - click
     - setuptools
@@ -26,7 +29,5 @@ dependencies:
     - sphinx-copybutton
     - sphinxcontrib-bibtex
     - sphinx_book_theme~=0.0
-    - git+https://github.com/executablebooks/MyST-NB.git
-    - git+https://github.com/executablebooks/jupyter-cache.git
-    - git+https://github.com/phaustin/jupyter-book@posix_path
+
 

@@ -1,0 +1,29 @@
+{% set version = "0.0.1" %}
+
+package:
+  name: jb_test
+  version: {{ version }}
+
+source:
+  path: ../
+
+build:
+  number: 3
+  noarch: python
+
+requirements:
+
+  build:
+    - python ==3.7.*
+    - pip
+  
+about:
+  home: https://github.com/phaustin/jb_test
+  license: LICENSE.txt
+  license_family: BSD
+
+  summary: 'packages'
+
+extra:
+  recipe-maintainers:
+    - phaustin
