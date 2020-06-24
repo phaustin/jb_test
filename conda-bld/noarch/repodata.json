@@ -1,0 +1,27 @@
+{
+  "info": {
+    "subdir": "noarch"
+  },
+  "packages": {
+    "jb_test-0.0.1-py_3.tar.bz2": {
+      "build": "py_3",
+      "build_number": 3,
+      "depends": [
+        "python"
+      ],
+      "license": "LICENSE.txt",
+      "license_family": "BSD",
+      "md5": "613c500cb8b278440120afc9c19fb0b8",
+      "name": "jb_test",
+      "noarch": "python",
+      "sha256": "9e82faa1a8411fef7033b459995ebee1d516c889b93b5745ec2316815726379a",
+      "size": 78543,
+      "subdir": "noarch",
+      "timestamp": 1592884530718,
+      "version": "0.0.1"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

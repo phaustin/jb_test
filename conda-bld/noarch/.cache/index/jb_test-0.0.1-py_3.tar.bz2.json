@@ -1,0 +1,1 @@
+{"build": "py_3", "build_number": 3, "depends": ["python"], "license": "LICENSE.txt", "license_family": "BSD", "name": "jb_test", "noarch": "python", "subdir": "noarch", "timestamp": 1592884530718, "version": "0.0.1", "size": 78543, "md5": "613c500cb8b278440120afc9c19fb0b8", "sha256": "9e82faa1a8411fef7033b459995ebee1d516c889b93b5745ec2316815726379a"}

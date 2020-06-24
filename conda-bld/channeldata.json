@@ -1,0 +1,39 @@
+{
+  "channeldata_version": 1,
+  "packages": {
+    "jb_test": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": "https://github.com/phaustin/jb_test",
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": null,
+      "keywords": null,
+      "license": "LICENSE.txt",
+      "post_link": false,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "packages",
+      "tags": null,
+      "text_prefix": true,
+      "timestamp": 1592884530,
+      "version": "0.0.1"
+    }
+  },
+  "subdirs": [
+    "noarch",
+    "osx-64"
+  ]
+}
