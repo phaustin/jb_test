@@ -17,7 +17,6 @@
 		}
 	],
 	"settings": {
-		"python.pythonPath": "C:/Users/Phil/miniwin/envs/nested/python.exe",
 		"python.condaPath": "C:/Users/Phil/miniwin/condabin/conda.bat"
 	},
 	"launch": {
