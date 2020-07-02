@@ -1,5 +1,0 @@
-# Main index
-
-
-```{tableofcontents}
-```
