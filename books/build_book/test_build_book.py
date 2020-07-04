@@ -28,7 +28,7 @@ def test_build_book(tmpdir):
     assert '<h1 class="site-logo" id="site-title">TEST PROJECT NAME</h1>' in html
     assert '<div class="sphinx-tabs docutils container">' in html
     assert '<link rel="stylesheet" type="text/css" href="_static/mycss.css" />' in html
-    # assert '<script src="_static/js/myjs.js"></script>' in html
+    assert '<script src="_static/js/myjs.js"></script>' in html
 
 if __name__ == "__main__":
     tmpdir = "default_book"
