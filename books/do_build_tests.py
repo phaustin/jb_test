@@ -10,6 +10,8 @@ def test_build_page(tmpdir):
     """Test building the documentation book."""
     path_output = Path(tmpdir).absolute()
     path_page = path_tests.joinpath("test_pages", "single_page.ipynb")
+    print(f"pha -- \n{path_output}\n\n")
+    print(f"pha -- \n{path_page}\n\n")
 
     run(f"jb page {path_page} --path-output {path_output}".split(), check=True)
     path_html = path_output.joinpath("_build", "html")
