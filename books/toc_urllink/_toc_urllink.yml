@@ -3,6 +3,7 @@ title: Toc
 sections:
 - file: content1
   title: Content1
+- header: test header  
 - file: content2
   title: Content2
 - url: https://jupyterbook.org/start/build.html

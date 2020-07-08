@@ -14,7 +14,7 @@ def remove_default(path):
 
 if __name__ == "__main__":
     this_dir = Path().resolve()
-    build_dir = this_dir / "books/toc_url/_build"
+    build_dir = this_dir / "books/toc_withheaders/_build"
     if build_dir.is_dir():
         print("removing _build")
         remove_default(build_dir)
