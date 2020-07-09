@@ -5,13 +5,22 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "runbook",
+            "name": "urllink",
             "type": "python",
             "request": "launch",
             "program": "runbook.py",
             "console": "integratedTerminal",
             "justMyCode" : false,
             "args": ["build","--toc","books/toc_urllink/_toc_urllink.yml","books/toc_urllink"]
+        },
+        {
+            "name": "withheaders",
+            "type": "python",
+            "request": "launch",
+            "program": "runbook.py",
+            "console": "integratedTerminal",
+            "justMyCode" : false,
+            "args": ["build","--toc","books/toc_withheaders/_toc_withheaders.yml","books/toc_withheaders"]
         }
     ]
 }
